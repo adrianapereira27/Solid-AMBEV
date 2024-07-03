@@ -1,4 +1,4 @@
-﻿namespace Solid
+﻿namespace Solid.Antes
 {
     public class Biblioteca
     {
@@ -7,8 +7,8 @@
 
         public Biblioteca()
         {
-            this.livros = new List<Livro>();
-            this.registrosEmprestimo = new Dictionary<string, RegistroEmprestimo>();
+            livros = new List<Livro>();
+            registrosEmprestimo = new Dictionary<string, RegistroEmprestimo>();
         }
 
         // Métodos relacionados ao gerenciamento de livros
